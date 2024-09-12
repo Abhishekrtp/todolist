@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css">
+  
+  
+</head>
+<body>
+
+  <header class="header">
+    <nav class="container nav">
+
+      <h1 class="logo">
+        Website
+      </h1>
+  
+      <ul class="nav-items">
+        <li><a href="https://abhishek-an-and.netlify.app/">Home</a></li>
+        <li><a href="https://abhishek-an-and.netlify.app/">Todo</a></li>
+        <li><a href="https://abhishek-an-and.netlify.app/">Sign Up</a></li>
+        
+      </ul>
+
+    </nav>
+
+    <div class="headline">
+      <h2 id="main-heading">Manage your tasks</h2>
+      <button class="btn btn-headline">Learn More</button>
+    </div>
+    
+
+
+
+  </header>
+
+
+  <section class="section-todo container">
+    <h2>Your plan for today ?</h2>
+
+    <form action="" class="form-todo">
+
+      <input type="text" placeholder="Enter your task">
+      <input type="submit" value="Add Tasks" class="btn">
+    </form>
+
+    
+
+    <ul class="todo-list">
+
+      <li>
+        <span>
+          do this
+        </span>
+        <div class="todo-buttons">
+          <div class="todo-btn done">Done</div>
+          <div class="todo-btn remove">Remove</div>
+        </div>
+      </li>
+      
+
+      
+      
+
+
+      
+    </ul>
+
+
+  </section>
+
+  <section class="section-signup container">
+
+    <h2>Sign Up</h2>
+
+    <form action="" class="signup-form">
+      <div class="form-group">
+
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+
+      </div>
+
+
+      <div class="form-group">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+
+      </div>
+
+
+      <div class="form-group">
+
+        <label for="confirmpassword">Confirm Password</label>
+        <input type="password" id="confirmpassword" name="confirmpassword">
+
+      </div>
+
+
+      <div class="form-group">
+
+        <label for="phone">Phone</label>
+        <input type="number" id="phone" name="phone">
+
+      </div>
+
+
+
+      <div class="form-group">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+      </div>
+
+
+      <div class="form-group">
+
+        <label for="about">About yourself</label>
+        <textarea name="about" id="about"></textarea>
+
+      </div>
+      <button class="btn signup-btn" type="submit">Submit</button>
+      
+    </form>
+  </section>
+
+
+
+  <script src="./script.js"></script>
+
+
+  
+  
+</body>
+</html>
