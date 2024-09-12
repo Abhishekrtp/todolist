@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  min-height: 60vh;
+  background: url(./pexels-evie-shaffer-1259279-4004374.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  position: relative;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+  overflow: hidden;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  min-height: 8vh;
+  align-items: center;
+}
+
+.nav-items {
+  width: 40%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+
+}
+
+.headline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-headline{
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.todo-section {
+  margin-top: 5rem;
+  text-align: center;
+  
+}
+
+.todo-list{
+  text-align: left;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
+.todo-list li {
+  padding: 0.7rem;
+  background-color: #444;
+  color: rgb(244, 244, 244);
+  margin-top: 1rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.todo-btn {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  
+}
+
+.todo-buttons{
+  display: flex;
+
+}
+.form-todo {
+  margin-top: 1rem;
+  min-height: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-todo input {
+  min-height: 100%;
+
+}
+
+.form-todo input[type="text"] {
+  width: 78%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.form-todo input[type="submit"] {
+  width: 20%;
+  background: #3e4446;
+  color: white;
+  font-weight: bold;
+}
+
+.section-signup {
+  margin: 5rem auto;
+  text-align: center;
+  background: rgb(240, 240, 240);
+  border-radius: 10px;
+  padding: 1rem;
+
+}
+
+
+
+.signup-form{
+  max-width: 800px;
+  width: 95%;
+  margin: auto;
+  text-align: left;
+
+
+}
+.signup-form  label{
+  display: block;
+
+}
+
+.signup-form input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.form-group {
+  margin-top: 1rem;
+}
+
+.signup-form textarea {
+  width: 100%;
+} 
+
+.signup-btn{
+  background: rgb(44, 55, 63);
+  color: white;
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.bg-dark{
+  background-color: #000;
+  color: #eee;
+}
